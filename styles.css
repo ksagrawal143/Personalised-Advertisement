@@ -1,0 +1,27 @@
+table {
+  align-self: center;
+  text-align: center;
+  border: 2px solid black;
+  margin-left: 10px;
+  background-color: seashell;
+}
+th,
+tr,
+td {
+  border: 1px solid black;
+}
+body {
+  background-image: url("./Assets/bckgrnd.png");
+  background-size: 100%;
+}
+h1 {
+  color: rebeccapurple;
+  text-align: center;
+  font-weight: bolder;
+  background-color: white;
+}
+h2 {
+  margin-left: 10px;
+  color: white;
+  background-color: black;
+}
