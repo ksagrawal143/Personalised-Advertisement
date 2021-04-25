@@ -23,13 +23,13 @@ app.get("/", function (req, res) {
       res.send("kappa"); 
   }); 
    
-fs.readFile('./features_detected.csv',async(err,data)=>{
-  if(err){
-    console.error(err)
-    return
-  }
-  console.log(await neatCSV(data))
-})
+// fs.readFile('./features_detected.csv',async(err,data)=>{
+//   if(err){
+//     console.error(err)
+//     return
+//   }
+//   console.log(await neatCSV(data))
+// })
 app.listen(3000, () => {
     console.log('Server is up on port'+3000)
 })
