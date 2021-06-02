@@ -15,10 +15,14 @@
 </head>
 <body>
   <h1> Personalised Advertisement using Computer Vision</h1>
-  <h2>Current Object:</h2>
-  <table><tr><th>Object Detected</th></tr><tr><td>Beard</td></tr></table>
+  <h2>Facial Detection Model Running:</h2>
+  <table><tr><th colspan="6">Facial Attributes Detected </th></tr><tr><td>Bearded</td><td>Bangs</td><td>Eyeglasses</td><td>Young</td><td>Attractive</td></tr></table>
   <h2>Advertisement fetched from the pool:</h2>
-  <table><tr><th>...........</th></tr><tr><td>.....</td></tr></table>
+  <p>Advertisement Displayed for the tag <a id="attribute" href=""></a></p>
+  <div id="box">
+    <img class="output" id="image"/>
+  </div>
+  <button onclick="refreshAd()" alt="Advertisement to be displayed">Refresh</button>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.min.js" integrity="sha512-quHCp3WbBNkwLfYUMd+KwBAgpVukJu5MncuQaWXgCrfgcxCJAq/fo+oqrRKOj+UKEmyMCG3tb8RB63W+EmrOBg==" crossorigin="anonymous"></script>
   <script src="./features.js"></script>
 </body>
