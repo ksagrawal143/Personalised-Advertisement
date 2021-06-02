@@ -2,7 +2,6 @@ table {
   align-self: center;
   text-align: center;
   border: 2px solid black;
-  margin-left: 10px;
   background-color: seashell;
 }
 th,
@@ -20,8 +19,15 @@ h1 {
   font-weight: bolder;
   background-color: white;
 }
-h2 {
-  margin-left: 10px;
+h2,
+p {
   color: white;
   background-color: black;
+}
+button {
+  margin-top: 10px;
+}
+.output {
+  height: 350px;
+  width: 500px;
 }
