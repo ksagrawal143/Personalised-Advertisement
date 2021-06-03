@@ -13,7 +13,7 @@ app.use(bodyParser.json())
   
 let currentData={};
 app.get("/home", function (req, res) {
-    let query="?sunglasses and eyeglasses";
+    let query="?";
     Object.keys(currentData).map(key=>{
         query+=`${key}=${currentData[key]}&`
     })
